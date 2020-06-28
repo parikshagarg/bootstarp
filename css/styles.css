@@ -1,0 +1,161 @@
+body
+{
+    font-family: montserrat;
+}
+#title
+{
+    background-color: #ff4c68;
+    color: white;
+}
+h1{
+    font-family:  sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family:  sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+
+}
+p{
+    color: gray;
+    font-weight: 800;
+}
+.container-fluid
+{
+    padding: 3% 20% 7%;
+
+}
+.navbar-brand
+{
+    font-family: ubuntu;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: montserrat-light;
+}
+.Download-btn
+{
+    margin: 5% 3% 5% 0%;
+}
+.title-img
+{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+#features
+{background-color: white;
+    padding:7% 15%;
+    position: relative;
+
+}
+ .feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+.icon
+{
+    color: #ef4172;
+    margin-bottom: 1rem;
+}
+.icon:hover
+{
+    color: #ff4c68;
+}
+/* testimonials */
+#testimonials
+{ background-color: #ef4172;
+
+    text-align: center;
+    color: white;
+}
+.test-img
+{ width: 10%;
+border-radius: 200%;
+margin: 20px;
+}
+.carousel-item
+{
+    padding: 7% 20%;
+}
+#press
+{
+    background-color: #ef4172;
+    padding-bottom: 3%;
+    text-align: center;
+
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* pricing section */
+#pricing
+{
+    padding: 6%;
+    text-align: center;
+}
+.pricing-cols 
+{
+padding: 3% 2%;
+}
+@media (max-width: 1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-img
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta
+{
+    background-color:#ff4c68;
+    padding: 7% 15%;
+    color: white;
+    text-align: center;
+
+}
+.heading-cta
+{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+#footer
+{ text-align: center;
+    background-color: white;
+    padding:7% 15%;
+
+}
+.foot-icon 
+{
+    padding: 1% 1.5%;
+
+}
